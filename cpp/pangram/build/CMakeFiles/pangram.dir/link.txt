@@ -1,0 +1,3 @@
+C:\cmake\bin\cmake.exe -E rm -f CMakeFiles\pangram.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\pangram.dir/objects.a @CMakeFiles\pangram.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\pangram.dir/objects.a -Wl,--no-whole-archive -o pangram.exe -Wl,--out-implib,libpangram.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pangram.dir\linklibs.rsp

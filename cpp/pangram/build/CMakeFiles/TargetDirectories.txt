@@ -1,0 +1,4 @@
+E:/playground/Exercism Solutions/cpp/pangram/build/CMakeFiles/pangram.dir
+E:/playground/Exercism Solutions/cpp/pangram/build/CMakeFiles/test_pangram.dir
+E:/playground/Exercism Solutions/cpp/pangram/build/CMakeFiles/edit_cache.dir
+E:/playground/Exercism Solutions/cpp/pangram/build/CMakeFiles/rebuild_cache.dir
