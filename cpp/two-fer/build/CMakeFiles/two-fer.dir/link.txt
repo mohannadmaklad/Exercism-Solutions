@@ -1,0 +1,3 @@
+C:\cmake\bin\cmake.exe -E rm -f CMakeFiles\two-fer.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\two-fer.dir/objects.a @CMakeFiles\two-fer.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\two-fer.dir/objects.a -Wl,--no-whole-archive -o two-fer.exe -Wl,--out-implib,libtwo-fer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\two-fer.dir\linklibs.rsp

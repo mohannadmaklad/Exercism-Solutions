@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/playground/Exercism Solutions/cpp/two-fer/two_fer.cpp
+two_fer.h
+E:/playground/Exercism Solutions/cpp/two-fer/two_fer.h
+
+E:/playground/Exercism Solutions/cpp/two-fer/two_fer.h
+string
+-
+
