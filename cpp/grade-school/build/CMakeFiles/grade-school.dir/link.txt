@@ -1,0 +1,3 @@
+C:\cmake\bin\cmake.exe -E rm -f CMakeFiles\grade-school.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\grade-school.dir/objects.a @CMakeFiles\grade-school.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\grade-school.dir/objects.a -Wl,--no-whole-archive -o grade-school.exe -Wl,--out-implib,libgrade-school.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\grade-school.dir\linklibs.rsp
