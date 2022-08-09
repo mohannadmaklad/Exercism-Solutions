@@ -1,7 +1,6 @@
 #if !defined(GRADE_SCHOOL_H)
 #define GRADE_SCHOOL_H
 
-#include <string>
 #include <vector>
 #include <map>
 #include <algorithm>  
@@ -10,26 +9,26 @@
 namespace grade_school {
     class school {
         private:
-            std::map<int, std::vector<std::string>> internal_roster;
+            std::map<int, std::vector<std::string>> roster_;
+            const std::vector<std::string> empty_;
         public:
             void add(const std::string &name, int grade)
             {
-                internal_roster[grade].push_back(name);
-                 std::sort(internal_roster[grade].begin(), internal_roster[grade].end());
+                roster_[grade].push_back(name);
+                std::sort(roster_[grade].begin(), roster_[grade].end());
             }
             const std::map<int,std::vector<std::string>> roster() const
             {
-                return internal_roster;
+                return roster_;
             }
-            std::vector<std::string> grade(int grade) const
+            const std::vector<std::string>& grade(int grade) const
             {
-                auto grade_it = internal_roster.find(grade);
-                if(grade_it == internal_roster.end())
+                auto grade_it = roster_.find(grade);
+                if(grade_it == roster_.end())
                 {
-                    return std::vector<std::string>();
+                    return empty_;
                 }
-                std::vector<std::string> ret = grade_it->second;
-                return ret;
+                return grade_it->second;
             }
     };
 
