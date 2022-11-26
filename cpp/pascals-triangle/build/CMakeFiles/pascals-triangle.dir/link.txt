@@ -1,0 +1,3 @@
+C:\cmake\bin\cmake.exe -E rm -f CMakeFiles\pascals-triangle.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\pascals-triangle.dir/objects.a @CMakeFiles\pascals-triangle.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\pascals-triangle.dir/objects.a -Wl,--no-whole-archive -o pascals-triangle.exe -Wl,--out-implib,libpascals-triangle.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pascals-triangle.dir\linklibs.rsp
