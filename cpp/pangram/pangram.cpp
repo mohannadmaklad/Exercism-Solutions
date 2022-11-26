@@ -1,19 +1,15 @@
 #include "pangram.h"
-
-#define NUMBER_OF_LETTERS 26
-
+#include <bitset>
 
 namespace pangram {
         bool is_pangram(std::string const &sentence)
         {
-            const char * alphabet = "abcdefghijklmnopqrstuvwxyz";
-            for(auto i = 0; i < NUMBER_OF_LETTERS; i++)
-            {
-                if(sentence.find(alphabet[i]) == std::string::npos && sentence.find(std::toupper(alphabet[i])) == std::string::npos)
-                {
-                    return false;
+            std::bitset<26> flags;
+            for(auto& c:sentence){
+                if(std::isalpha(c)){
+                    flags.set(std::tolower(c)-'a');
                 }
             }
-            return true;
+            return flags.all();
         }
 }  // namespace pangram
