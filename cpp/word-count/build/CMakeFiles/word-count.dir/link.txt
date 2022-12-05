@@ -1,0 +1,3 @@
+C:\cmake\bin\cmake.exe -E rm -f CMakeFiles\word-count.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\word-count.dir/objects.a @CMakeFiles\word-count.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\word-count.dir/objects.a -Wl,--no-whole-archive -o word-count.exe -Wl,--out-implib,libword-count.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\word-count.dir\linklibs.rsp
