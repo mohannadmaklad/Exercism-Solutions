@@ -1,0 +1,4 @@
+E:/playground/Exercism Solutions/cpp/series/build/CMakeFiles/edit_cache.dir
+E:/playground/Exercism Solutions/cpp/series/build/CMakeFiles/series.dir
+E:/playground/Exercism Solutions/cpp/series/build/CMakeFiles/test_series.dir
+E:/playground/Exercism Solutions/cpp/series/build/CMakeFiles/rebuild_cache.dir
