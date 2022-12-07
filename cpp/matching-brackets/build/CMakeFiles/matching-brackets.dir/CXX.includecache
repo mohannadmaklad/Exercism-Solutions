@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/playground/Exercism Solutions/cpp/matching-brackets/matching_brackets.cpp
+matching_brackets.h
+E:/playground/Exercism Solutions/cpp/matching-brackets/matching_brackets.h
+stack
+-
+
+E:/playground/Exercism Solutions/cpp/matching-brackets/matching_brackets.h
+string
+-
+
